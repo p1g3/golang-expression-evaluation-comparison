@@ -3,7 +3,7 @@ module github.com/antonmedv/golang-expression-evaluation-comparison
 go 1.16
 
 require (
-	github.com/Knetic/govaluate v3.0.0+incompatible
+	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible
 	github.com/PaesslerAG/gval v1.1.1
 	github.com/antonmedv/expr v1.8.9
 	github.com/dop251/goja v0.0.0-20210810150349-acd0507c3d6f
@@ -12,5 +12,6 @@ require (
 	github.com/robertkrimen/otto v0.0.0-20210614181706-373ff5438452
 	github.com/skx/evalfilter/v2 v2.1.17
 	go.starlark.net v0.0.0-20210602144842-1cdb82c9e17a
+	golang.org/x/sys v0.3.0 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 )
